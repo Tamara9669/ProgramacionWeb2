@@ -44,7 +44,7 @@ app.post('/edit/:id', (req, res) => {
             console.error('Error al editar el usuario:', err);
             res.send('Error al editar el usuario');
         } else {
-            res.redirect('/');  // Redirige a la página principal después de editar
+            res.redirect('/');  //Redirige a la página principal después de editar
         }
     });
 });
